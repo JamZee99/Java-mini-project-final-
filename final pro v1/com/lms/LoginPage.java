@@ -37,7 +37,7 @@ public class LoginPage extends JFrame{
     public String  pwd;
     public static int winChecked = -1;
 
-    //git testing here
+    //git testing here new one
 
     public LoginPage (String title){
         super(title);
