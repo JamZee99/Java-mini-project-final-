@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.lms.AdminForm">
+  <grid id="27dc6" binding="adminPane" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1864" height="1329"/>
+    </constraints>
+    <properties>
+      <background color="-15108358"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="3ecd2" binding="header" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="8" left="12" bottom="8" right="12"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="100"/>
+            <preferred-size width="-1" height="100"/>
+            <maximum-size width="-1" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15108358"/>
+          <foreground color="-15108358"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ce426" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Franklin Gothic Heavy" size="56"/>
+              <foreground color="-1"/>
+              <text value="ADMIN PAGE"/>
+            </properties>
+          </component>
+          <component id="ee1b8" class="javax.swing.JButton" binding="logoutButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Logout"/>
+            </properties>
+          </component>
+          <component id="45c80" class="javax.swing.JLabel" binding="uID">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="20"/>
+              <foreground color="-1"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <hspacer id="773e9">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <grid id="4523" binding="btnPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="350" height="700"/>
+            <preferred-size width="350" height="700"/>
+            <maximum-size width="350" height="700"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15108358"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f2d44" class="javax.swing.JButton" binding="editCoursesButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="2" left="4" bottom="2" right="4" weightx="0.0" weighty="0.0" ipadx="200" ipady="20"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="Edit Courses"/>
+            </properties>
+          </component>
+          <component id="6b15d" class="javax.swing.JButton" binding="editNoticeButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="2" left="4" bottom="2" right="4" weightx="0.0" weighty="0.0" ipadx="200" ipady="20"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="Edit notice"/>
+            </properties>
+          </component>
+          <component id="4be84" class="javax.swing.JButton" binding="editUserProfilesButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="2" left="4" bottom="2" right="4" weightx="0.0" weighty="0.0" ipadx="200" ipady="20"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="Edit user profiles"/>
+            </properties>
+          </component>
+          <component id="6dd12" class="javax.swing.JButton" binding="editTimetablesButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="2" left="4" bottom="2" right="4" weightx="0.0" weighty="0.0" ipadx="200" ipady="20"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="Edit timetables"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="8dad5" binding="dynamicDis" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="1500" height="1200"/>
+            <preferred-size width="1500" height="1200"/>
+            <maximum-size width="1500" height="1200"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="c4ce" binding="edUser" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card1"/>
+            </constraints>
+            <properties>
+              <background color="-909"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="26c60" binding="edCourses" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card2"/>
+            </constraints>
+            <properties>
+              <background color="-2963536"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="776d2" binding="edNotice" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card3"/>
+            </constraints>
+            <properties>
+              <background color="-10922999"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="b331b" binding="edTime" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card4"/>
+            </constraints>
+            <properties>
+              <background color="-15726527"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </grid>
+      <vspacer id="f4882">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>

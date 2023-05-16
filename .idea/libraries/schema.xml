@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="schema">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/final pro v1/out/production/final pro v1/.idea/dataSources/cb047b3a-275a-4a67-8f46-b341889d4a14/storage_v2/_src_/schema/classicmodels.fG2wDg.zip!/" />
+      <root url="jar://$PROJECT_DIR$/final pro v1/out/production/final pro v1/.idea/dataSources/cb047b3a-275a-4a67-8f46-b341889d4a14/storage_v2/_src_/schema/maxtronic.G8nNFQ.zip!/" />
+      <root url="jar://$PROJECT_DIR$/final pro v1/out/production/final pro v1/.idea/dataSources/cb047b3a-275a-4a67-8f46-b341889d4a14/storage_v2/_src_/schema/information_schema.FNRwLQ.zip!/" />
+      <root url="jar://$PROJECT_DIR$/final pro v1/out/production/final pro v1/.idea/dataSources/cb047b3a-275a-4a67-8f46-b341889d4a14/storage_v2/_src_/schema/sys.zb4BAA.zip!/" />
+      <root url="jar://$PROJECT_DIR$/final pro v1/out/production/final pro v1/.idea/dataSources/cb047b3a-275a-4a67-8f46-b341889d4a14/storage_v2/_src_/schema/sakila.oXLGyQ.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
