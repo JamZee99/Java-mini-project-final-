@@ -37,6 +37,8 @@ public class LoginPage extends JFrame{
     public String  pwd;
     public static int winChecked = -1;
 
+    //git testing here
+
     public LoginPage (String title){
         super(title);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
